@@ -18,7 +18,7 @@ html, body {
     justify-content: space-btween;
     align-items: center;
     min-height: 100hv;
-    padding: 100px;
+    padding: 100px; 
     background-color:  #000;
     transform: 0.5;
 }
@@ -32,23 +32,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    /* margin-bottom: 10px; */
+    /* margin-bottom: 10px; */
+    height: 69px;
 }
 
 header .logo {
     color: #333;
-    font-size: 2em;
-    /* font-weight: 700; */
+    font-size: 1.2em;
+    font-weight: 700;
     text-decoration: none;
     transition: 0.5s;
-    /* background-color: black; */
+    background-color: rgb(0, 0, 0);
 }
 
 header .logo :hover {
-    color: red;
-    font-size: 220%;
-    transition: 0.5s;
+    color: rgb(255, 0, 0);
+    font-size: 210%;
+    transition: 0.2s;
 }
 
 header .logo span {
@@ -65,22 +67,22 @@ header ul {
 }
 header ul :hover {
     color: red;
-    font-size: 150%
+    font-size: 130%
 }
 
 header ul li {
-    font-size: 200%;
+    font-size: 170%;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.2rem;
     color: #333;
-    transition: 0.5s;
+    transition: 0.2s;
     list-style: none;
     background-color: black;
 }
 
 header ul li a {
-    font-size: 150%;
+    font-size: 120%;
     text-decoration: none;
     color: #333;
     transition: 0.5s;
@@ -88,11 +90,19 @@ header ul li a {
     background-color: black;
 }
 
+.wrapper
+{
+    margin-top: 10px;
+    height: screen;
+}
 .contents
 {
-    position: relative;
+    /* position: relative;
     max-width: 700px;
-    z-index: 10;
+    z-index: 10; */
+    max-width: 50%;
+    float: left;
+    overflow: hidden;
 }
 
 .contents h3
@@ -146,6 +156,15 @@ header ul li a {
     background-color: transparent;
     color: #333;
 }
+
+.hero {
+    content:url(images/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
+    max-width: 50%;
+    background: #141414;
+    box-shadow: 0 0 15px 10px #141414;
+
+    float: right;
+ }​
 
 footer ul
 {
